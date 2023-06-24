@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Knock Knock</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Notice</string>
+    <string name="title_response">Response</string>
+    <string name="title_notifications">Send Notifications</string>
+    <string name="title_addWorkers">Add Workers</string>
+    <string name="title_Workers">Workers</string>
+    <string name="title_preApprove_Schedule">Pre Schedule Visit</string>
+    <string name="title_preApprove">Pre Approved Visitor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

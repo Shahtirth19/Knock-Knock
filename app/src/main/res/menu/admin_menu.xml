@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_addWorkers"
+        android:icon="@drawable/workers"
+        android:title="@string/title_addWorkers" />
+    <item
+        android:id="@+id/video_call"
+        android:icon="@drawable/ic_baseline_video_camera_front_24"
+        android:title="Video Call" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+    <item
+        android:id="@+id/navigation_response"
+        android:icon="@drawable/ic_baseline_explore_24"
+        android:title="@string/title_response" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        card_view:cardBackgroundColor="@android:color/white">
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/workers"/>
+
+<!--            <ImageView-->
+<!--                android:id="@+id/download"-->
+<!--                android:layout_width="30dp"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_margin="2dp"-->
+<!--                android:src="@drawable/download"/>-->
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:padding="4dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/image"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/eid"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="1dp"
+                android:padding="4dp"
+                android:layout_below="@+id/name"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"/>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

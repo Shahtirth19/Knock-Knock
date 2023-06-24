@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.mygate.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.mygate.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/video_call"
+        android:name="com.example.mygate.ui.Agoravc.Agoramain"
+        android:label="Video Call"
+        tools:layout="@layout/fragment_agoramain" />
+    <fragment
+        android:id="@+id/payment"
+        android:name="com.example.mygate.ui.payment.payment"
+        android:label="Payments"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/navigation_response"
+        android:name="com.example.mygate.ui.NotificationResponse.Response"
+        android:label="@string/title_response"
+        tools:layout="@layout/fragment_response" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.mygate.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/navigation_addWorkers"
+        android:name="com.example.mygate.ui.workers.AddWorkers"
+        android:label="@string/title_addWorkers"
+        tools:layout="@layout/fragment_add_workers" />
+    <fragment
+        android:id="@+id/navigation_Workers"
+        android:name="com.example.mygate.ui.workers.Workers"
+        android:label="@string/title_Workers"
+        tools:layout="@layout/fragment_workers" />
+    <fragment
+        android:id="@+id/navigation_preApprove_Schedule"
+        android:name="com.example.mygate.ui.PreApprove.schedule"
+        android:label="@string/title_preApprove_Schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/navigation_preApprove"
+        android:name="com.example.mygate.ui.PreApprove.preApprove"
+        android:label="@string/title_preApprove"
+        tools:layout="@layout/fragment_pre_approve" />
+    <action
+        android:id="@+id/sucess"
+        app:destination="@id/navigation_preApprove_Schedule" />
+    <action
+        android:id="@+id/visit"
+        app:destination="@id/navigation_preApprove"/>
+</navigation>
